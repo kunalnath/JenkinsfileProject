@@ -6,5 +6,10 @@ pipeline{
                 echo 'Hello World'
             }
         }
+        stage("Printing Happy Coding"){
+            steps{
+                echo 'Happy Coding!!'
+            }
+        }
     }
 }
